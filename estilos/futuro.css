@@ -1,0 +1,257 @@
+
+
+/* futuro.css */
+body {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+
+    background-image: url('https://img.freepik.com/fotos-premium/render-3d-gimnasio-moderno-futurista-gimnasio_751108-46.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+
+  
+  
+  .banner {
+    
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .form {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 80%;
+  }
+  
+  fieldset {
+    border: 2px solid #007acc;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  legend {
+    color: #007acc;
+    font-weight: bold;
+  }
+  
+  label {
+    color: #fff;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    background-color: #333;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    width: 98%
+  }
+  
+  select {
+    background-color: #007acc;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+  }
+  
+  .radios label {
+    color: #fff;
+    margin: 0 10px;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin: 5px 0;
+  }
+  
+  .checkbox-label input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .circulo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .circulo {
+    background-color: #007acc;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+  }
+  
+  .boton-condiciones {
+    color: #fff;
+    margin: 5px;
+  }
+  
+  .botones-de-enviar {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #005ea6;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+  
+
+  
+  
+  .trapecio-arriba {
+    width:0; height:0; border-right: 50px solid transparent; border-top: 50px solid #FFFF00; border-left: 50px solid #FFFF00; border-bottom: 50px solid #FFFF00; -moz-border-radius: 100%; -webkit-border-radius: 100%; border-radius: 100%;
+  }
+
+  
+
+
+
+
+/*BOTONES*/
+.select{
+    height: 50px;
+    background-color: #007acc; 
+    width: 100%;
+  }
+
+#estilosAleatoriosBtn {
+    background-color: #007acc; 
+    color: white; 
+    font-size: 16px;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin: 10px; 
+  }
+  
+  #estilosAleatoriosBtn:hover {
+    background-color: #005ea6; 
+    color: #fff; 
+  }
+  /*ANIMACIONES*/
+  .float{
+    transition: .5s, color .10s ease;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+  }
+  .float:hover{
+    box-shadow: 0 8px 8px 0 #bebbbc,0 8px 8px 0 #adadab;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+  }
+  
+  .shakeFix:hover{
+    animation-name: shakefix;
+        -webkit-animation-name: shakefix;
+        -moz-animation-name: shakefix;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+    animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+  }
+  
+    @keyframes shakefix {
+        0%  {transform: translate(1px, 1px);}
+        10% {transform: translate(-1px, -2px);}
+        20% {transform: translate(-3px, 0px);}
+        30% {transform: translate(3px, 2px);}
+        40% {transform: translate(1px, -1px);}
+        50% {transform: translate(-1px, 2px);}
+        60% {transform: translate(-3px, 1px);}
+        70% {transform: translate(3px, 1px);}
+        80% {transform: translate(-1px, -1px);}
+        90% {transform: translate(1px, 2px);}
+        100% {transform: translate(1px, -2px);}
+    }
+  
+  
+    #botonRecordar{
+      background-color: #007acc; 
+    color: white; 
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin: 10px; 
+    }
+    
+    #botonRecordar:hover{
+    background-color: #005ea6; 
+    color: #fff; 
+    }
+  
+    
+  #botonRecordar {
+    background-color: #007acc;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  #botonRecordar.recordando {
+    background-color: #cccccc; 
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 255, 0.5); 
+    color: #fff; 
+    text-align: center; 
+    width: 100%; 
+    border: 2px solid #007acc;
+  }
+  
+  
